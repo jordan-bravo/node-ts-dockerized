@@ -1,0 +1,5 @@
+services:
+  reload-demo:
+    build: .
+    volumes:
+      - "./:/app"
